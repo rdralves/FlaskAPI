@@ -3,6 +3,6 @@ from api import api
 
 class CursoList(Resource):
     def get(self):
-        return "Estudando API com FLaskdfd"
+        return "ola mundo"
 
 api.add_resource(CursoList, '/cursos')
